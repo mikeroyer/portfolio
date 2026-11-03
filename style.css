@@ -1,0 +1,95 @@
+
+
+
+/* ///////////////////////// GLOBAL ///////////////////////// */
+body{
+	padding: 0 15px;
+	font-family: sans-serif;
+}
+
+.wrapper{
+	max-width: 980px;
+	margin: 0 auto 30px auto;
+}
+
+/* ///////////////////////// HEADER ///////////////////////// */
+.header{
+	text-align: center;
+	padding-top: 15px;
+}
+
+.header .avatar{
+	margin-bottom: 10px;
+}
+
+.header .avatar img{
+	max-width: 120px;
+	height: auto;
+}
+
+.header .handwriting{
+	margin-bottom: 10px;
+}
+
+.header .handwriting img{
+	max-width: 400px;
+	height: auto;
+}
+
+.header h2{
+	font-size: 20px;
+	font-weight: 300;
+	margin: 0 0 30px 0;
+	padding: 0;
+}
+
+.header h2 a{
+	text-decoration: none;
+	color: #000;
+	border-bottom: dotted 1px #000;
+}
+
+@media (max-width:900px){
+
+}
+
+.nav{
+	text-align: center;
+	margin: 0 auto;
+	max-width: 500px;
+	width: 100%;
+}
+
+.nav a{
+	color: #FFF;
+	text-decoration: none;
+	background-color: #000;
+	padding: 10px 40px;
+	border-radius: 100px;
+	font-weight: 900;
+	font-size: 22px;
+	margin-bottom: 20px;
+	transition: all 0.2s ease;
+	display: block;
+}
+
+.nav a:hover{
+	background-color: #4eb758;
+}
+
+.nav div:nth-child(1) a{background-color: #4eb758;}
+.nav div:nth-child(2) a{background-color: #50b887;}
+.nav div:nth-child(3) a{background-color: #50b8ab;}
+.nav div:nth-child(4) a{background-color: #50a0b8;}
+.nav div:nth-child(5) a{background-color: #5081b8;}
+.nav div:nth-child(6) a{background-color: #505cb8;}
+.nav div:nth-child(7) a{background-color: #6b50b8;}
+
+
+
+
+
+
+
+
+
